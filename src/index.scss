@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu';
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+ul {
+    list-style-type: none;
+}
+
+body {
+  background-color: #f3f4f6;
+}
+
+$color: #463CE3;
+$colorH: #3b31c2;
+$color2: #5E6672;
+
+.span {
+  color: $color !important;
+}
+
+
+.App {
+  margin: 50px auto;
+  padding: 40px;
+  width: 500px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  border-radius: 10px;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.Header {
+  margin-bottom: 20px;
+  h1 {
+    color: $color2;
+    text-align: center;
+  }
+}
+
+
+
+#Range {
+  #buttons {
+    display: flex;
+    justify-content:space-between;
+    button {
+      display: inline-block;
+      width: 30px;
+      height: 30px;
+      font-weight: bold;
+      color: white;
+      background-color: $color;
+      border: none;
+      cursor: pointer;
+      font-size: 1.2em;
+      border-radius: 100%;
+      &:hover {
+        background-color: $colorH;
+      }
+    }
+  }
+  #range {
+    accent-color: $color;
+    width: 100%;
+    margin: 15px 0;
+  }
+  h3 {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 1.5em;
+  }
+}
+
+
+
+#Plazo {
+  margin: 50px 0;
+  h2 {
+    color: $color2;
+    text-align: center;
+  }
+  select {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    border: 2px solid rgb(212, 212, 212);
+    font-size: .9em;
+  }
+}
+
+#Total {
+  background-color: #f6f6f6;
+  padding: 20px;
+  margin-top: 30px;
+  border-radius: 5px;
+  h2 {
+    text-align: center;
+    color: $color2;
+    padding-bottom: 10px;
+  }
+  p {
+    padding: 5px 0;
+    font-size: 1.1em;
+  }
+}
